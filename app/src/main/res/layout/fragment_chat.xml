@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".ChatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/profil1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profil1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nama1"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="Sistem Informasi'20"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/profil1"
+        app:layout_constraintTop_toTopOf="@+id/profil1" />
+
+    <TextView
+        android:id="@+id/jam1"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="20dp"
+        android:text="14.29"
+        android:textColor="#555555"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profil1" />
+
+    <TextView
+        android:id="@+id/chat1"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:text="Anggi: Hi sal, jangan lupa LPJ yaa. Dlnya..."
+        android:textColor="#555555"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/profil1"
+        app:layout_constraintTop_toBottomOf="@+id/nama1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/angka1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/angka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jam1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/profil2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profil1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nama2"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="PAPB Kelas G"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/profil2"
+        app:layout_constraintTop_toTopOf="@+id/profil2" />
+
+    <TextView
+        android:id="@+id/jam2"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="20dp"
+        android:text="10.06"
+        android:textColor="#555555"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profil2" />
+
+    <TextView
+        android:id="@+id/chat2"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:text="Sari: Informasi pengumpulan tugas PAPB"
+        android:textColor="#555555"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/profil2"
+        app:layout_constraintTop_toBottomOf="@+id/nama2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/profil3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/profil1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nama3"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="FILKOM UB 2020"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/profil3"
+        app:layout_constraintTop_toTopOf="@+id/profil3" />
+
+    <TextView
+        android:id="@+id/jam3"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="20dp"
+        android:text="07.45"
+        android:textColor="#555555"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profil3" />
+
+    <TextView
+        android:id="@+id/chat3"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:text="Pendaftaran 4C Competition telah dibuka"
+        android:textColor="#555555"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/profil3"
+        app:layout_constraintTop_toBottomOf="@+id/nama3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/angka2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/angka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jam3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/profil4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/profil1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profil3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nama4"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="Geralda SI"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/profil4"
+        app:layout_constraintTop_toTopOf="@+id/profil4" />
+
+    <TextView
+        android:id="@+id/jam4"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="20dp"
+        android:text="06.20"
+        android:textColor="#555555"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profil4" />
+
+    <ImageView
+        android:id="@+id/centangbiru"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/centangbiru"
+        app:layout_constraintStart_toEndOf="@+id/profil4"
+        app:layout_constraintTop_toBottomOf="@+id/nama4"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/chat4"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="2dp"
+        android:text="Halo gee"
+        android:textColor="#555555"
+        android:textSize="13sp"
+        app:layout_constraintStart_toEndOf="@+id/centangbiru"
+        app:layout_constraintTop_toBottomOf="@+id/nama4"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/new_chat"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/new_chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
